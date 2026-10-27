@@ -10,4 +10,5 @@ qr = qrcode.make(text)
 filename = input("Enter filename to save (default: qrcode.png): ") or "qrcode.png"
 qr.save(filename)
 
+# Output shows as an QR
 print(f"QR code saved as {filename}")
